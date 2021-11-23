@@ -1,0 +1,38 @@
+
+.scroll-spacer {
+    align-items: center;
+    background-color: #1a1a1a;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    height: 75vh;
+    margin: 1em auto;
+    width: 90%;
+}
+video {
+    display: block;
+    margin: auto;
+    position: relative;
+    width: 100%;
+}
+.video-wrap {
+    margin: 0 auto;
+    position: relative;
+    width: 90%;
+}
+.video-wrap:after {
+    border-bottom: 1px solid red;
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+span{
+    font-weight: 600;
+    line-height: 3rem;
+    padding-top: 2rem;
+    overflow-wrap: anywhere;
+}
